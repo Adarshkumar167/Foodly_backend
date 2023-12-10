@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use('/', authRouter);
 app.use('/api/users', userRouter);
-app.use('/api/restaurants', restaurantRouter);
+app.use('/api/restaurant', restaurantRouter);
 
 
 
